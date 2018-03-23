@@ -1,0 +1,410 @@
+@charset 'utf-8';
+#main{
+	max-width:calc((750/75)*1rem);
+	margin:auto;
+	overflow:hidden;
+}
+/* download部分 */
+header{
+	width:100%;
+	height:calc((133/75)*1rem);
+	background-image:url('../img/topbg.jpg');
+	background-size:100% 100%;
+}
+header .l-info{
+	width:calc((420/75)*1rem);
+	height:100%;
+	margin-left:calc((10/75)*1rem);
+}
+header .l-info .img{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:calc((115/75)*1rem);
+	height:calc((115/75)*1rem);
+	border-radius:10px;
+	background-color:white;
+	margin-top:calc((9/75)*1rem);
+}
+header .l-info img{
+	width:calc((110/75)*1rem);
+	height:calc((110/75)*1rem);
+	border-radius:10px;
+}
+header .l-info .title{
+	width:calc((220/75)*1rem);
+	height:calc((89/75)*1rem);
+	margin-top:calc((9/75)*1rem);
+	margin-left:calc((15/75)*1rem);
+	color:white;
+}
+header h1{
+	font-size:calc((35/75)*1rem);
+}
+header h2{
+	font-size:calc((30/75)*1rem);
+}
+header .r-info, header .r-info img{
+	width:calc((131/75)*1rem);
+	height:calc((79/75)*1rem);
+}
+header .r-info{
+	margin:calc((30/75)*1rem) calc((40/75)*1rem) 0 0;
+}
+/*--轮播图部分--*/
+.banner, .banner img{
+	width:100%;
+	height:calc((283/75)*1rem);
+}
+#main .swiper-pagination-bullet{
+	width:calc((25/75)*1rem);
+	height:calc((25/75)*1rem);
+}
+#main .swiper-pagination-bullet-active{
+	background-color:red;
+}
+/*--轮播图部分--*/
+/*--newpart--*/
+.newpart{
+	width:100%;
+	height:calc((554/75)*1rem);
+}
+/*--newpart--*/
+/*--appstore--*/
+.appstore{
+	margin-top:calc((90/75)*1rem);
+}
+.appcontent{
+	width:calc((670/75)*1rem);
+	border-top:4px dashed #888;
+	margin:auto;
+}
+.appcontent .toplogo{
+	position:relative;
+	top:-50px;
+	width:calc((270/75)*1rem);
+	height:calc((80/75)*1rem);
+	box-shadow:0 calc((50/75)*1rem) 50px -10px #888;
+	margin:auto;
+}
+.subtitle{
+	height:calc((43/75)*1rem);
+	margin-bottom:calc((30/75)*1rem);
+	background:url('../img/pinan.png') no-repeat 0 0/100% 100%;
+}
+.appcontent .foot-nav{
+	margin-top:calc((20/75)*1rem);
+}
+.nav{
+	color:#888;
+	height:calc((51/75)*1rem);
+	border-bottom:1px dashed #898989;
+}
+.nav li{
+	float:left;
+	font-size:calc((24/75)*1rem);
+	text-align:center;
+	white-space:nowrap;
+}
+.nav li:nth-child(2n+1){
+	
+	width:calc((90/75)*1rem);
+	height:calc((35/75)*1rem);
+}
+.nav li:nth-child(2n){
+	width:calc((20/75)*1rem);
+	height:calc((35/75)*1rem);
+	background:url('../img/border.png') no-repeat center center;
+}
+.nav-slide{
+	color:#888;
+	margin-top:calc((5/75)*1rem);
+}
+.nav-slide .top{
+	display:flex;
+	flex-direction:start;
+}
+.nav-slide .pay{
+	font-size:calc((30/75)*1rem);
+}
+.nav-slide .tip{
+	width:calc((139/75)*1rem);
+	height:calc((77/75)*1rem);
+}
+.nav-slide .news{
+	flex-grow:1;
+	height:calc((77/75)*1rem);
+	margin-left:calc((15/75)*1rem);
+	font-size:calc((25/75)*1rem);
+	line-height:calc((77/75)*1rem);
+}
+.nav-slide p{
+	height:calc((77/75)*1rem);
+	text-align:left;
+	text-indent:calc((15/75)*1rem);
+	line-height:calc((77/75)*1rem);
+	font-size:calc((20/75)*1rem);
+	white-space:nowrap;
+}
+/*--appstore--*/
+/*--gameInfo--*/
+.gameInfo{
+	
+}
+.gameInfo .subtitle{
+	background-image:url("../img/tit_02_a6df768.png");
+	background-size:100% 100%;
+}
+.gameInfo ul{
+	display:flex;
+	justify-content:space-around;
+}
+.gameInfo ul li{
+	width:calc((153/75)*1rem);
+	height:calc((188/75)*1rem);
+	text-align:center;
+	color:#434343;
+	font-size:.32rem;
+}
+.gameInfo img{
+	display:block;
+	width:calc((123/75)*1rem);
+	height:calc((113/75)*1rem);
+	margin:0 auto calc((30/75)*1rem);
+}
+/*--gameInfo--*/
+/*--raiders--*/
+.raiders{
+	height:calc((1139/75)*1rem);
+	background:url('../img/raiders.jpg') 0 0/100% 100%;
+	margin-top:calc((50/75)*1rem);
+	overflow:hidden;
+}
+.raiders .content{
+	width:calc((670/75)*1rem);
+	height:calc((861/75)*1rem);
+	margin:calc((40/75)*1rem) auto;
+}
+.raiders .subtitle{
+	background-image:url('../img/tit_03_522d1be.png');
+}
+.raiders .more{
+	display:flex;
+	justify-content:space-around;
+	margin-top:calc((20/75)*1rem);
+	font-size:calc((20/75)*1rem);
+}
+.raiders .more .boy, .raiders .more .girl{
+	width:calc((302/75)*1rem);
+	height:calc((200/75)*1rem);
+	line-height:calc((100/75)*1rem);
+	text-indent:calc((20/75)*1rem);
+}
+.raiders .more p{
+	width:calc((284/75)*1rem);
+	height:calc((40/75)*1rem);
+}
+.raiders .boy{
+	background:url('../img/boy.png') no-repeat 0 0/100% 100%;
+}
+.raiders .girl{
+	background:url('../img/girl.png') no-repeat 0 0/100% 100%;
+}
+.raiders .foot-nav{
+	margin-top:calc((30/75)*1rem)
+}
+.raiders .search{
+	margin-top:calc((30/75)*1rem);
+}
+.raiders .search input{
+	width:calc((662/75)*1rem);
+	height:calc((60/75)*1rem);
+	border:calc((5/75)*1rem) solid black;
+	text-indent:calc((5/75)*1rem);
+	outline:none;
+}
+.raiders .search::after{
+	content:'';
+	position:absolute;
+	top:0;
+	right:0;
+	width:calc((80/75)*1rem);
+	height:calc((80/75)*1rem);
+	background:url('../img/search.jpg') no-repeat 0 0/100% 100%;
+}
+/*--raiders--*/
+/*--reward--*/
+.reward{
+	margin-top:calc((50/75)*1rem);
+}
+.reward .subtitle{
+	background-image:url("../img/tit_04_76a6462.png");
+}
+.rewardcontent{
+	width:calc((670/75)*1rem);
+	margin:auto;
+}
+.ad{
+	border-top:1px dashed #888;
+	overflow:hidden;
+}
+.ad img{
+	height:calc((291/75)*1rem);
+	margin-top:calc((30/75)*1rem);
+}
+/*--reward--*/
+/*--hero--*/
+.hero{
+	margin-top:calc((50/75)*1rem);
+}
+.hero .subtitle{
+	background-image:url("../img/tit_05_595f805.png");
+}
+.herocontent{
+	width:calc((670/75)*1rem);
+	margin:auto;
+}
+#main .hero .swiper-pagination{
+	width:calc((200/75)*1rem);
+	background-color:white;
+	left:0px;
+	bottom:-5px;
+}
+#main .hero .swiper-pagination-bullet{
+	width:calc((20/75)*1rem);
+	height:calc((20/75)*1rem);
+}
+.herocontent .swiper-container img{
+	width:calc((670/75)*1rem);
+	height:calc((481/75)*1rem);
+}
+/*--hero--*/
+/*--character--*/
+.cmgod{
+	margin-top:calc((50/75)*1rem);
+}
+.cmgod .subtitle{
+	background-image:url("../img/tit_06_24051e3.png");
+}
+.cmgod .scroll{
+	display:flex;
+	justify-content:space-around;
+}
+.cmgod .scroll:nth-of-type(2){
+	margin-top:calc((20/75)*1rem);
+}
+.cmgod .scroll span{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	width:calc((130/75)*1rem);
+	height:calc((130/75)*1rem);
+	border:2px solid #c7b27b;
+	border-radius:50%;
+}
+.cmgod .scroll img{
+	width:calc((105/75)*1rem);
+	height:calc((105/75)*1rem);
+	border-radius:50%;
+}
+.kownmore{
+	height:calc((73/75)*1rem);
+	margin-top:calc((30/75)*1rem);
+	background-image:url("../img/getMore.png");
+	background-size:100% 100%;
+}
+/*--character--*/
+/*--activity-content--*/
+.activity{
+	margin-top:calc((50/75)*1rem);
+}
+.activity .subtitle{
+	background:url("../img/tit_08_0bde813.png") no-repeat 0 0/100% 100%;
+}
+.activity-content{
+	display:flex;
+	justify-content:space-around;
+	width:calc((670/75)*1rem);
+	margin:calc((30/75)*1rem) auto;
+}
+.activity-content ul li{
+	display:flex;
+	justify-content:space-around;
+	width:calc((670/75)*1rem);
+	margin-bottom:calc((30/75)*1rem);
+}
+.activity-content ul li img{
+	width:calc((320/75)*1rem);
+	height:calc((212/75)*1rem);
+}
+.activity-content ul li .title{
+	width:calc((320/75)*1rem);
+	height:calc((67/75)*1rem);
+	color:#5b5b5b;
+	font-size:calc((30/75)*1rem);
+	font-family:'Microsoft YaHei';
+	text-align:left;
+	line-height:calc((67/75)*1rem);
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+/*--activity-content--*/
+/*--download-bottom--*/
+.download-bottom{
+	height:calc((505/75)*1rem);
+	background-image:url("../img/game.png");
+	background-size:100% 100%;
+	overflow:hidden;
+}
+.download-bottom p{
+	height:calc((58/75)*1rem);
+	margin-top:calc((70/75)*1rem);
+	font-size:.6rem;
+	letter-spacing:.4rem;
+	text-align:center;
+	color:#ddd;
+	line-height:calc((58/75)*1rem);
+	text-shadow:0 20px 10px #888;
+}
+.download-button{
+	width:calc((222/75)*1rem);
+	height:calc((66/75)*1rem);
+	margin:calc((105/75)*1rem) auto;
+	border:4px solid;
+	text-align:center;
+	font-family:'Microsoft YaHei';
+	line-height:calc((66/75)*1rem);
+	font-size:.3rem;
+	letter-spacing:calc((15/75)*1rem);
+	text-shadow:0 8px 8px #888;
+}
+/*--download-bottom--*/
+/*--foot--*/
+.foot{
+	background-color:rgb(248,248,248);
+	overflow:hidden;
+	padding-bottom:calc((50/75)*1rem);
+	color:#4d5369;
+}
+.foot .toplogo{
+	height:calc((70/75)*1rem);
+	background-image:url("../img/info.png");
+	background-size:100% 100%;
+	margin-top:calc((70/75)*1rem);
+}
+.foot .tel{
+	margin-top:calc((50/75)*1rem);
+	height:calc((123/75)*1rem);
+	border-bottom:1px solid #888;
+}
+.foot p{
+	height:calc((36/75)*1rem);
+	text-align:center;
+	line-height:calc((36/75)*1rem);
+	font-size:.37rem;
+}
+.foot .info{
+	margin-top:calc((50/75)*1rem);
+}
+/*--foot--*/
